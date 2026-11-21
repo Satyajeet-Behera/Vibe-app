@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Squircle background with warm vibrant gradient -->
+    <path android:pathData="M34,8 L86,8 A26,26 0 0,1 112,34 L112,86 A26,26 0 0,1 86,112 L34,112 A26,26 0 0,1 8,86 L8,34 A26,26 0 0,1 34,8 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="12"
+                android:startY="12"
+                android:endX="108"
+                android:endY="108"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFC038" />
+                <item android:offset="0.28" android:color="#FF6B4A" />
+                <item android:offset="0.65" android:color="#E62C84" />
+                <item android:offset="1.0" android:color="#7042E8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Stylized Ribbon Wave - Loop 1 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M34,42 C38,52 41,61 47,61 C53,61 55,45 61,42 C67,38 70,58 75,58 C80,58 83,48 86,40" />
+
+    <!-- Stylized Ribbon Wave - Intertwined Loop 2 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M33,51 C36,59 42,63 48,55 C54,48 57,50 63,57 C69,64 74,61 79,54 C82,50 84,48 88,48" />
+
+    <!-- VIBE Text in crisp white -->
+    <!-- V -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M40,73 L45,84 L50,73" />
+
+    <!-- I -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:pathData="M55,73 L55,84" />
+
+    <!-- B -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.0"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M60,73 L60,84 M60,73 L65.5,73 C68.5,73 68.5,78 65.5,78 L60,78 M60,78 L66,78 C69.5,78 69.5,84 66,84 L60,84" />
+
+    <!-- E -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.0"
+        android:strokeLineCap="round"
+        android:pathData="M76.5,73 L71.5,73 L71.5,84 L76.5,84 M71.5,78.5 L75.5,78.5" />
+
+</vector>

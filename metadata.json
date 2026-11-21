@@ -1,0 +1,6 @@
+{
+  "name": "Vibe",
+  "description": "Instagram replica social media app built with Jetpack Compose, Material 3, and Clean MVVM Architecture.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
